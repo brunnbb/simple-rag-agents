@@ -1,5 +1,6 @@
 from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
+
 from src.config import CHROMA_PATH, CHROMA_COLLECTION, EMBED_MODEL
 
 def test_chroma():

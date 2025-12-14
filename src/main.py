@@ -1,8 +1,9 @@
 import asyncio
 import time
+
 from src.pipeline.csv_processor import process_csv
 from src.config import PERGUNTAS_PATH
-from src.llm.clients import openai_client, gemini_client, deepseek_client
+from src.llm.clients import openai_client, gemini_client
 
 async def main():
     start = time.perf_counter()
