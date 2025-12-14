@@ -1,0 +1,15 @@
+[project]
+name = "simple-rag-agents"
+version = "0.1.0"
+description = "This code implements simple rag agents for testing and saving outputs in a csv file"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "google-genai>=1.55.0",
+    "langchain-chroma>=1.1.0",
+    "langchain-openai>=1.1.2",
+    "openai>=2.11.0",
+    "pandas>=2.3.3",
+    "tqdm>=4.67.1",
+]
